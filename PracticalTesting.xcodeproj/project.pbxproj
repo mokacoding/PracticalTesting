@@ -12,8 +12,8 @@
 		3FB020BC1C4430690094D188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB020BA1C4430690094D188 /* Main.storyboard */; };
 		3FB020BE1C4430690094D188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB020BD1C4430690094D188 /* Assets.xcassets */; };
 		3FB020C11C4430690094D188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB020BF1C4430690094D188 /* LaunchScreen.storyboard */; };
-		3FB020CC1C4430690094D188 /* PracticalTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB020CB1C4430690094D188 /* PracticalTestingTests.swift */; };
 		3FB020D71C4430690094D188 /* PracticalTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB020D61C4430690094D188 /* PracticalTestingUITests.swift */; };
+		3FB020E51C4431450094D188 /* CallbackTestExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB020E41C4431450094D188 /* CallbackTestExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +42,11 @@
 		3FB020C01C4430690094D188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB020C21C4430690094D188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB020C71C4430690094D188 /* PracticalTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticalTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FB020CB1C4430690094D188 /* PracticalTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticalTestingTests.swift; sourceTree = "<group>"; };
 		3FB020CD1C4430690094D188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB020D21C4430690094D188 /* PracticalTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticalTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB020D61C4430690094D188 /* PracticalTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticalTestingUITests.swift; sourceTree = "<group>"; };
 		3FB020D81C4430690094D188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB020E41C4431450094D188 /* CallbackTestExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackTestExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		3FB020CA1C4430690094D188 /* PracticalTestingTests */ = {
 			isa = PBXGroup;
 			children = (
-				3FB020CB1C4430690094D188 /* PracticalTestingTests.swift */,
+				3FB020E41C4431450094D188 /* CallbackTestExample.swift */,
 				3FB020CD1C4430690094D188 /* Info.plist */,
 			);
 			path = PracticalTestingTests;
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB020CC1C4430690094D188 /* PracticalTestingTests.swift in Sources */,
+				3FB020E51C4431450094D188 /* CallbackTestExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
