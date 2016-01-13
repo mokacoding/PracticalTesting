@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5BB6221C46CDF3001F77E3 /* DelegateTestExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BB6211C46CDF3001F77E3 /* DelegateTestExample.swift */; };
 		3FB020B71C4430690094D188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB020B61C4430690094D188 /* AppDelegate.swift */; };
 		3FB020B91C4430690094D188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB020B81C4430690094D188 /* ViewController.swift */; };
 		3FB020BC1C4430690094D188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB020BA1C4430690094D188 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5BB6211C46CDF3001F77E3 /* DelegateTestExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateTestExample.swift; sourceTree = "<group>"; };
 		3FB020B31C4430690094D188 /* PracticalTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticalTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB020B61C4430690094D188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB020B81C4430690094D188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		3FB020CA1C4430690094D188 /* PracticalTestingTests */ = {
 			isa = PBXGroup;
 			children = (
+				3F5BB6211C46CDF3001F77E3 /* DelegateTestExample.swift */,
 				3FB020E41C4431450094D188 /* CallbackTestExample.swift */,
 				3FB020CD1C4430690094D188 /* Info.plist */,
 			);
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB020E51C4431450094D188 /* CallbackTestExample.swift in Sources */,
+				3F5BB6221C46CDF3001F77E3 /* DelegateTestExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				3FB020DD1C4430690094D188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FB020DE1C4430690094D188 /* Build configuration list for PBXNativeTarget "PracticalTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				3FB020E01C4430690094D188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FB020E11C4430690094D188 /* Build configuration list for PBXNativeTarget "PracticalTestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				3FB020E31C4430690094D188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
