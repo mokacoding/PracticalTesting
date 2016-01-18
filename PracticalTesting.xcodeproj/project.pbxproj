@@ -17,6 +17,7 @@
 		3FB020E51C4431450094D188 /* CallbackTestExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB020E41C4431450094D188 /* CallbackTestExample.swift */; };
 		3FB6A2201C4CE54600A84616 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB6A1FF1C4CE4A500A84616 /* Quick.framework */; };
 		3FB6A2211C4CE54A00A84616 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB6A2151C4CE4E000A84616 /* Nimble.framework */; };
+		3FB6A2231C4CE5C300A84616 /* QuickNimbleAsyncSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6A2221C4CE5C300A84616 /* QuickNimbleAsyncSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +159,7 @@
 		3FB020E41C4431450094D188 /* CallbackTestExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackTestExample.swift; sourceTree = "<group>"; };
 		3FB6A1EC1C4CE4A400A84616 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Carthage/Checkouts/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
 		3FB6A20B1C4CE4E000A84616 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Carthage/Checkouts/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
+		3FB6A2221C4CE5C300A84616 /* QuickNimbleAsyncSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickNimbleAsyncSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 				3F5BB6211C46CDF3001F77E3 /* DelegateTestExample.swift */,
 				3FB020E41C4431450094D188 /* CallbackTestExample.swift */,
 				3FB020CD1C4430690094D188 /* Info.plist */,
+				3FB6A2221C4CE5C300A84616 /* QuickNimbleAsyncSpec.swift */,
 			);
 			path = PracticalTestingTests;
 			sourceTree = "<group>";
@@ -538,6 +541,7 @@
 			files = (
 				3FB020E51C4431450094D188 /* CallbackTestExample.swift in Sources */,
 				3F5BB6221C46CDF3001F77E3 /* DelegateTestExample.swift in Sources */,
+				3FB6A2231C4CE5C300A84616 /* QuickNimbleAsyncSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
