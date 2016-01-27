@@ -7,6 +7,7 @@ The topics covered are:
 
 - [Testing Callbacks with XCTest](http://mokacoding.com/blog/testing-callbacks-in-swift-with-xctest)
 - [Testing Delegates with XCTest](http://mokacoding.com/blog/testing-delegates-in-swift-with-xctest)
+- [Async Testing with Quick and Nimble](http://www.mokacoding.com/blog/async-testing-with-quick-and-nimble/)
 
 ---
 
